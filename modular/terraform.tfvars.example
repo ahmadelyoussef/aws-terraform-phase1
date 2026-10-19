@@ -1,0 +1,40 @@
+
+# AWS PROVIDER
+aws_region  = "us-east-2"
+aws_profile = "your-aws-profile"
+
+# ENVIRONMENT
+environment = "dev"
+
+# VPC
+vpc_cidr = "10.0.0.0/16"
+
+# PUBLIC SUBNETS
+public_subnet_1_cidr = "10.0.1.0/24"
+public_subnet_2_cidr = "10.0.3.0/24"
+
+# PRIVATE SUBNETS
+private_subnet_1_cidr = "10.0.2.0/24"
+private_subnet_2_cidr = "10.0.4.0/24"
+
+# AVAILABILITY ZONES
+availability_zone_1 = "us-east-2a"
+availability_zone_2 = "us-east-2b"
+
+# EC2
+ec2_instance_type = "t3.micro"
+
+# RDS
+db_identifier        = "tf-phase1-postgres-db"
+db_name              = "tf_phase1db"
+db_instance_class    = "db.t3.micro"
+db_allocated_storage = 20
+db_username          = "postgres"
+
+
+# CLOUDWATCH
+alert_email   = "your-email@example.com"
+cpu_threshold = 80
+
+# ROUTE 53
+domain_name = "example.com"
